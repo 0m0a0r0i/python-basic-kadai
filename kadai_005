@@ -1,0 +1,4 @@
+top = 10
+bottom = 20
+h = 5
+print(f"{(top + bottom) * h / 2}㎠")
