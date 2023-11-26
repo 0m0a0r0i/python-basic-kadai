@@ -1,0 +1,13 @@
+import random
+var= random.randint(1, 100)
+print(var)
+
+a = var % 3
+b = var % 5
+
+if a == 0 and b == 0:
+  print("FizzBuzz")
+elif a == 0:
+  print("Fizz")
+elif b == 0:
+  print("Buzz")
