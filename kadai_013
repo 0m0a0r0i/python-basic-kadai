@@ -1,0 +1,5 @@
+def add_tax(price: int, tax: float) -> float:
+  total = price + (price * tax * 0.01)
+  print(f"{total}円")
+
+add_tax(1895, 10)
